@@ -1,0 +1,140 @@
+
+
+
+@import url('https://fonts.googleapis.com/css?family=Paytone+One');
+
+html{
+overflow:hidden;
+}
+
+*{
+margin:0px;
+top=0;
+left=0;
+box-sizing:border-box;
+}
+
+
+
+
+body{
+overflow:hidden;
+height:570px;
+text-align:center;
+background-color:black;
+}
+
+.score{
+background-color:white;
+color:black;
+padding:2px;
+}
+
+
+h1{
+
+margin:50px auto;
+margin-top:40px;
+font-size:40px;
+font-family:'Paytone One',sans-serif;
+color:white;
+}
+
+div{
+color:white;
+}
+
+#result
+{
+font-size:40px;
+margin:30px 0px;}
+
+img{
+border:1px solid white;
+border-radius:30%;
+margin:40px 30px;
+}
+
+.score_board{
+width:150px;
+padding:10px;
+margin:40px auto;
+border:1px solid white;
+position:realtive;
+}
+
+span{
+font-size:30px;
+}
+
+#user{
+position:absolute;
+margin-left:-25px;
+font-size:17px;}
+
+#comp{
+position:absolute;
+margin-left:120px;
+font-size:17px;}
+
+p{
+color:white;
+font-size:25px;
+font-family:sans-serif;
+margin-top:30px;}
+
+img:hover{
+cursor:pointer;
+}
+
+
+.choice{
+display:inline;
+}
+
+
+
+.imageuser{
+float:left;
+height:300px;
+width:300px;
+margin-top:-450px;
+}
+
+
+.imagecomp{
+float:right;
+height:300px;
+width:300px;
+margin-top:-450px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.redglow{
+border:1px solid red;
+box-shadow:0px 0px 7px 7px red;
+
+}
+
+.greenglow{
+border:1px solid green;
+box-shadow:0px 0px 7px 7px green;
+
+}
+
+.grayglow{
+border:1px solid gray;
+box-shadow:0px 0px 7px 7px gray;
+
+}
+
